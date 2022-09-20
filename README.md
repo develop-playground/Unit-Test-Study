@@ -8,7 +8,7 @@
 ## Contents
 
 - Chapter1. 단위 테스트의 목표
-- Chapter2. 단위 테스트란 무엇인가
+- [Chapter2. 단위 테스트란 무엇인가](https://byeongsoon.notion.site/Chapter2-9bca1a75a22040218bb1a631a285d49a)
 - Chapter3. 단위 테스트 구조
 - Chapter4. 좋은 단위 테스트의 4대 요소
 - Chapter5. 목과 테스트 취약성 
