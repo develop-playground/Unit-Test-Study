@@ -2,5 +2,5 @@
 
 깃헙 잔디가 심어지지 않는 현상을 확인하기 위한 테스트 문서
 
-local name, email 추가 후 테스트
+ldddddddocal name, email 추가 후 테스트
 
