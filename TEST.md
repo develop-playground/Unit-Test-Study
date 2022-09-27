@@ -4,4 +4,3 @@
 
 local name, email 추가 후 테스트
 
-깃헙에서 직접 테스트
