@@ -15,7 +15,7 @@ public class LondonStyleTest {
     @DisplayName("재고 내에서 구매요청 성공 테스트")
     public void purchaseSucceedsWhenEnoughInventory() throws Exception {
         // Arrange, 준비
-        IStore store = mock(IStore.class);
+        IStore store = mock(LondonStore.class);
         when(store.hasEnoughInventory(Product.Shampoo, 5)).thenReturn(true);
 
         LondonCustomer customer = new LondonCustomer();
@@ -32,7 +32,7 @@ public class LondonStyleTest {
     @DisplayName("재고보다 많은 구매요청 실패 테스트")
     public void purchaseFailsWhenNotEnoughInventory() throws Exception {
         // Arrange, 준비
-        IStore store = mock(IStore.class);
+        IStore store = mock(LondonStore.class);
         when(store.hasEnoughInventory(Product.Shampoo, 15)).thenReturn(false);
 
         LondonCustomer customer = new LondonCustomer();
