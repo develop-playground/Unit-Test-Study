@@ -10,9 +10,9 @@ public class ClassicStyleTest {
     @DisplayName("재고 내에서 구매요청 성공 테스트")
     public void purchaseSucceedsWhenEnoughInventory() throws Exception {
         // Arrange, 준비
-        Store store = new Store();
+        ClassicStore store = new ClassicStore();
         store.addInventory(Product.Shampoo, 10);
-        Customer customer = new Customer();
+        ClassicCustomer customer = new ClassicCustomer();
 
         // Act, 실행
         boolean success = customer.purchase(store, Product.Shampoo, 5);
@@ -26,9 +26,9 @@ public class ClassicStyleTest {
     @DisplayName("재고보다 많은 구매요청 실패 테스트")
     public void purchaseFailsWhenNotEnoughInventory() throws Exception {
         // Arrange, 준비
-        Store store = new Store();
+        ClassicStore store = new ClassicStore();
         store.addInventory(Product.Shampoo, 10);
-        Customer customer = new Customer();
+        ClassicCustomer customer = new ClassicCustomer();
 
         // Act, 실행
         boolean success = customer.purchase(store, Product.Shampoo, 15);

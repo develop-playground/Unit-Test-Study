@@ -1,8 +1,8 @@
 package chapter02;
 
-public class Customer {
+public class ClassicCustomer {
 
-    public boolean purchase(Store store, Product product, int quantity) throws Exception {
+    public boolean purchase(ClassicStore store, Product product, int quantity) throws Exception {
         if (!store.hasEnoughInventory(product, quantity)) {
             return false;
         }

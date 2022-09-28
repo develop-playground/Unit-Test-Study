@@ -3,7 +3,7 @@ package chapter02;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Store {
+public class ClassicStore {
 
     private final Map<Product, Integer> inventory = new HashMap<>();
 
