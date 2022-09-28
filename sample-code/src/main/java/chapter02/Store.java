@@ -28,7 +28,7 @@ public class Store {
         }
     }
 
-    private int getInventory(Product product) {
+    public int getInventory(Product product) {
         boolean productExists = inventory.isEmpty();
         return productExists ? 0 : inventory.get(product);
     }
