@@ -3,7 +3,7 @@ package chapter02;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Store {
+public class ClassicStore {
 
     private final Map<Product, Integer> inventory = new HashMap<>();
 
@@ -28,7 +28,7 @@ public class Store {
         }
     }
 
-    private int getInventory(Product product) {
+    public int getInventory(Product product) {
         boolean productExists = inventory.isEmpty();
         return productExists ? 0 : inventory.get(product);
     }
