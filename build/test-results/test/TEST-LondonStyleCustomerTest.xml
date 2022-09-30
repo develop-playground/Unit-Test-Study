@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="LondonStyleCustomerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-09-26T09:22:31" hostname="jojunhyeong-ui-iMac.local" time="0.046">
+<testsuite name="LondonStyleCustomerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-09-30T09:37:54" hostname="jojunhyeong-ui-iMac.local" time="0.054">
   <properties/>
-  <testcase name="purchase_fails_when_not_enough_inventory()" classname="LondonStyleCustomerTest" time="0.046"/>
+  <testcase name="purchase_fails_when_not_enough_inventory()" classname="LondonStyleCustomerTest" time="0.05"/>
+  <testcase name="purchase_succeeds_when_enough_inventory()" classname="LondonStyleCustomerTest" time="0.002"/>
   <system-out><![CDATA[상품의 재고가(0)이 주문하신 수량(5)보다 적습니다.
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>

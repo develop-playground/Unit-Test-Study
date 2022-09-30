@@ -4,6 +4,8 @@ import chap2.Product.*
 
 class Store {
 
+    private val inventory: MutableMap<Product, Int> = mutableMapOf()
+
     fun hasEnoughInventory(product: Product, quantity: Int): Boolean {
         return getInventory(product) >= quantity
     }
@@ -12,24 +14,24 @@ class Store {
         if (!hasEnoughInventory(product, quantity)) {
             throw Exception("Not Enough Inventory")
         }
-
-        when (product) {
-            Shampoo -> product.stock -= quantity
-            Book -> product.stock -= quantity
-        }
+        val totalQuantity = inventory[product]!!.minus(quantity)
+        inventory[product] = totalQuantity
     }
 
     fun addInventory(product: Product, quantity: Int) {
-        when (product) {
-            Shampoo -> product.stock += quantity
-            Book -> product.stock += quantity
+        if (inventory.containsKey(product)) {
+            val totalQuantity = inventory[product]!!.plus(quantity)
+            inventory[product] = totalQuantity
+        } else {
+            inventory[product] = quantity
         }
     }
 
     fun getInventory(product: Product): Int {
-        return when (product) {
-            Shampoo -> product.stock
-            Book -> product.stock
+        return if (inventory.isEmpty()) {
+            0
+        } else {
+            inventory[product]!!
         }
     }
 }
