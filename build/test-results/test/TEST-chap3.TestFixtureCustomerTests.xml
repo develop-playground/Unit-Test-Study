@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="chap3.TestFixtureCustomerTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-03T03:30:35" hostname="Junhyungui-MacBookPro.local" time="0.03">
+  <properties/>
+  <testcase name="purchase_fails_when_not_enough_inventory()" classname="chap3.TestFixtureCustomerTests" time="0.03"/>
+  <system-out><![CDATA[상품의 재고가(10)이 주문하신 수량(15)보다 적습니다.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

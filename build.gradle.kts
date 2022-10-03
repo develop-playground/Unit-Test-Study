@@ -13,8 +13,8 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
-    implementation("org.mockito.kotlin:mockito-kotlin:4.0.0")
-    implementation("org.mockito:mockito-inline:4.6.1")
+    testImplementation("org.mockito.kotlin:mockito-kotlin:4.0.0")
+    testImplementation("org.mockito:mockito-inline:4.8.0")
 }
 
 tasks.test {

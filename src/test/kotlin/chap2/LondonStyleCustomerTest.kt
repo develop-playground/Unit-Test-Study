@@ -1,6 +1,6 @@
-import chap2.Customer
+package chap2
+
 import chap2.Product.Shampoo
-import chap2.Store
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
 import org.mockito.kotlin.mock
@@ -24,9 +24,7 @@ class LondonStyleCustomerTest {
         whenever(storeMock.hasEnoughInventory(product = Shampoo, 5))
             .thenReturn(true)
 
-        val success = customer.purChase(
-            storeMock, Shampoo, 5
-        )
+        val success = customer.purChase(storeMock, Shampoo, 5)
 
         assertTrue(success)
     }

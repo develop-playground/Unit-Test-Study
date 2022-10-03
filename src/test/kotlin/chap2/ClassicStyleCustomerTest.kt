@@ -1,6 +1,6 @@
-import chap2.Customer
+package chap2
+
 import chap2.Product.Shampoo
-import chap2.Store
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertFalse
