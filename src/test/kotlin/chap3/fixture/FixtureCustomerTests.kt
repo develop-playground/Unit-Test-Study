@@ -1,4 +1,4 @@
-package chap3
+package chap3.fixture
 
 import chap2.Customer
 import chap2.Product
@@ -8,8 +8,12 @@ import kotlin.test.assertEquals
 import kotlin.test.assertFalse
 import kotlin.test.assertTrue
 
-class TestFixtureCustomerTests {
+class   FixtureCustomerTests {
 
+    /**
+     * 비공개 픽토리 메서드를 사용한 테스트 코드
+     * @JunHyung
+     */
     private fun createStoreWithInventory(product: Product, quantity: Int): Store {
         val store = Store()
         store.addInventory(product, quantity)

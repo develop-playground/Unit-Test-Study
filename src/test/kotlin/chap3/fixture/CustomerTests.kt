@@ -1,4 +1,4 @@
-package chap3
+package chap3.fixture
 
 import chap2.Customer
 import chap2.Product

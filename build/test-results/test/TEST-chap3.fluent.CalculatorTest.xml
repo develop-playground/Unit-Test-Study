@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="chap3.fluent.CalculatorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-04T13:24:30" hostname="jojunhyeong-ui-iMac.local" time="0.019">
+  <properties/>
+  <testcase name="sum_of_two_numbers1()" classname="chap3.fluent.CalculatorTest" time="0.019"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
