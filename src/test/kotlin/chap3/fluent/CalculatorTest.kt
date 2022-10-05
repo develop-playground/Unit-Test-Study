@@ -3,6 +3,7 @@ package chap3.fluent
 import chap3.Calculator
 import org.hamcrest.MatcherAssert.assertThat
 import org.hamcrest.Matchers.equalTo
+import org.hamcrest.Matchers.`is`
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 
@@ -36,5 +37,6 @@ class CalculatorTest {
         val result = sut.sum(first, second)
 
         assertThat(30.0, equalTo(result))
+        assertThat(30.0, `is`(result))
     }
 }

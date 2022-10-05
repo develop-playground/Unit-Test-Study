@@ -3,6 +3,7 @@ package chap3.fixture
 import chap2.Customer
 import chap2.Product
 import chap2.Store
+import org.junit.jupiter.api.AfterEach
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
@@ -12,9 +13,17 @@ import kotlin.test.assertTrue
 
 class CustomerTests {
 
+    /**
+     * 공통 테스트 픽스처
+     * @JunHyung
+     */
     private lateinit var _store: Store
     private lateinit var _sut: Customer
 
+    /**
+     * 클래스 내 각 테스트 이전에 호출되는 메서드
+     * @JunHyung
+     */
     @BeforeEach
     fun setUp() {
         _store = Store()
@@ -39,4 +48,5 @@ class CustomerTests {
         assertFalse(success)
         assertEquals(10, _store.getInventory(Product.Shampoo))
     }
+
 }
