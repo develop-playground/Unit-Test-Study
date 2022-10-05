@@ -1,4 +1,4 @@
-package chapter03;
+package chapter03.aaa;
 
 import chapter02.ClassicCustomer;
 import chapter02.ClassicStore;

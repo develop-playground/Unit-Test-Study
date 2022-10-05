@@ -1,4 +1,4 @@
-package chapter03;
+package chapter03.aaa;
 
 import java.util.HashMap;
 import java.util.Map;
