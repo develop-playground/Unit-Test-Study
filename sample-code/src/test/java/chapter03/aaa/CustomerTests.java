@@ -4,16 +4,14 @@ import chapter02.ClassicCustomer;
 import chapter02.ClassicStore;
 import chapter02.Product;
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-public class CustomerTest {
+public class CustomerTests {
 
     /*
     * 한 줄로 된 실행 구절
     * @byeongsoon
      */
-
     @Test
     public void purchaseSucceedsWhenEnoughInventory1() throws Exception {
         // Arrange or Given

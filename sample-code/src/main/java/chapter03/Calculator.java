@@ -1,4 +1,4 @@
-package chapter03.aaa;
+package chapter03;
 
 public class Calculator {
 
