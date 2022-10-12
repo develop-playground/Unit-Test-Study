@@ -10,7 +10,7 @@
 - [Chapter1. 단위 테스트의 목표](https://byeongsoon.notion.site/1-37ac4c706b9c447589c0927eb71a806d)
 - [Chapter2. 단위 테스트란 무엇인가](https://byeongsoon.notion.site/2-6e6577c5a10d4ff9bc813d2029a1867a)
 - [Chapter3. 단위 테스트 구조](https://byeongsoon.notion.site/3-c5b8980badcf4f4eaaf299c44bed5260)
-- Chapter4. 좋은 단위 테스트의 4대 요소
+- [Chapter4. 좋은 단위 테스트의 4대 요소](https://www.notion.so/byeongsoon/4-4-6966add41e7c427fbf6fcf980420dc5c)
 - Chapter5. 목과 테스트 취약성 
 - Chapter6. 단위 테스트 스타일
 - Chapter7. 가치 있는 테스트를 위한 리팩터링
