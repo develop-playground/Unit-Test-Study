@@ -14,8 +14,9 @@
 - [Chapter4. 좋은 단위 테스트의 4대 요소 - @hongbeom](https://www.notion.so/byeongsoon/4-4-6966add41e7c427fbf6fcf980420dc5c)
 - [Chapter5. 목과 테스트 취약성 - @byeongsoon](https://byeongsoon.notion.site/5-95390ace8bc04bc384e7f1ce75baee12)
 - [Chapter6. 단위 테스트 스타일 - @junhyung](https://www.notion.so/byeongsoon/6-aea889acf713461f9c1895c4c87cfb96)
-- Chapter7. 가치 있는 테스트를 위한 리팩터링 - @hongbeom
-- Chapter8. 통합 테스트를 하는 이유 - @byeongsoon
+- [Chapter7. 가치 있는 테스트를 위한 리팩터링 - @hongbeom](https://byeongsoon.notion.site/7-0248cf2079cb4491a14c1b600e23e963)
+- [Chapter8. 통합 테스트를 하는 이유 - @byeongsoon](https://byeongsoon.notion.site/8-3c18641bc32d4fe18034b9e617819530)
 - Chapter9. 목 처리에 대한 모범 사례 - @junhyung
 - Chapter10. 데이터베이스 테스트 - @hongbeom
 - Chapter11. 단위 테스트 안티 패턴 - @byeongsoon
+- 결론 및 총평 - @junhyung
