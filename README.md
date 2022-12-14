@@ -16,7 +16,7 @@
 - [Chapter6. 단위 테스트 스타일 - @junhyung](https://www.notion.so/byeongsoon/6-aea889acf713461f9c1895c4c87cfb96)
 - [Chapter7. 가치 있는 테스트를 위한 리팩터링 - @hongbeom](https://byeongsoon.notion.site/7-0248cf2079cb4491a14c1b600e23e963)
 - [Chapter8. 통합 테스트를 하는 이유 - @byeongsoon](https://byeongsoon.notion.site/8-3c18641bc32d4fe18034b9e617819530)
-- Chapter9. 목 처리에 대한 모범 사례 - @junhyung
-- Chapter10. 데이터베이스 테스트 - @hongbeom
-- Chapter11. 단위 테스트 안티 패턴 - @byeongsoon
-- 결론 및 총평 - @junhyung
+- [Chapter9. 목 처리에 대한 모범 사례 - @junhyung](https://byeongsoon.notion.site/9-42da7a7a92e348b3a88e8cf3bdd9c149)
+- [Chapter10. 데이터베이스 테스트 - @hongbeom](https://byeongsoon.notion.site/10-a09a5790ba074d9d9120c02376550369)
+- [Chapter11. 단위 테스트 안티 패턴 - @byeongsoon](https://byeongsoon.notion.site/11-5b83a6d1678e46c7b1f910b2bc9dad82)
+- [결론 및 총평 - @junhyung](https://byeongsoon.notion.site/ab7b71449d204dd9bd138703cc7e4fc4)
